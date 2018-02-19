@@ -1,7 +1,7 @@
 <?php
-require_once './src/init.php'; // Autoload files using Composer autoload
+require_once './src/index.php';
 
-use phpBurner\Console as Console;
+use jbt\console as Console;
 $dev = Console::start();
 $live = Console::start('live');
 print_r("<pre>");
