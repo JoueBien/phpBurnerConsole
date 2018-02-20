@@ -1,10 +1,7 @@
 {
-    "name": "jbt/console",
-    "description": "php burners consolelibary",
-    "type": "package",
-    "require": {
-        "php": ">=5.3.0"
-    },
+    "name": "jbt/burn_console",
+    "description": "php burnner console",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +9,11 @@
             "email": "zcr2244@live.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
-        "psr-4": {
-            "jbt\\console\\": "src/"
+        "psr-0": {
+            "Console": "src"
         }
     }
 }
