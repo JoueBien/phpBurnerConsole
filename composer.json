@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-0": {
-            "Console": "src/index.php"
+             "classmap": ["src/index.php"]
         }
     }
 }
