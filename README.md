@@ -6,7 +6,7 @@ Note that this is beta software and is not considered 100% production ready. Pre
 ## Installation 
 ### php Burner 5
 1. Add the package to your package.json
-```composer require jbt/console```
+```composer require jbt/console:0.1.1```
 
 2. In the www/index.php file add the following
 ```
@@ -17,7 +17,7 @@ $app->use('console',Console::start());
 
 ### standard php
 1. Add the package to your package.json
-```composer require jbt/console```
+```composer require jbt/console:0.1.1```
 
 2. include the composer autoloader by adding 
 ```
