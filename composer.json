@@ -1,6 +1,6 @@
 {
-    "name": "jbt/burn_console",
-    "description": "php burnner console",
+    "name": "jbt/console",
+    "description": "php burnners console package",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,10 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+
+    },
     "autoload": {
-        "psr-0": {
-             "classmap": ["src/index.php"]
+        "psr-4": {
+            "jbt\\Console\\": "src"
         }
     }
 }

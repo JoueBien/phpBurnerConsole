@@ -1,5 +1,5 @@
 <?php
-namespace jbt\burn_console;
+namespace jbt\Console;
 /**
  * this class is the start moduel for the console
  * if in dev mode it will return a full console class
